@@ -6,7 +6,7 @@ from prefect import flow, task
 from prefect_gcp.cloud_storage import GcsBucket
 from prefect.tasks import task_input_hash
 from datetime import timedelta
-
+import os
 
 @task(log_prints=True, retries=3, cache_key_fn=task_input_hash, cache_expiration=timedelta(days=1))
 def fetch(dataset_url: str)-> pd.DataFrame:
@@ -32,6 +32,9 @@ def clean(df= pd.DataFrame) -> pd.DataFrame:
 def write_local(df: pd.DataFrame, color:str, dataset_file:str)-> Path:
     "write dataframe out locally as parquet file"
     path =Path(f"data/{color}/{dataset_file}.parquet")
+    
+    if not os.path.isdir(f"data/{color}"):
+        os.makedirs(f"data/{color}")
     df.to_parquet(path, compression="gzip")    
     return path
 
