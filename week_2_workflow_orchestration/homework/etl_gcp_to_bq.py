@@ -45,8 +45,3 @@ if __name__=="__main__":
     year=2019
     months=[2,3]
     parent_flow(months,year,color)
-
-'''
-ans1: 447770
-ans2: 14851920
-'''
