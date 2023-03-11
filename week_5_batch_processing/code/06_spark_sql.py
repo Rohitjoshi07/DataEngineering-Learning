@@ -105,7 +105,3 @@ GROUP BY
 
 df_result.coalesce(1) \
     .write.parquet(output, mode='overwrite')
-
-
-
-
