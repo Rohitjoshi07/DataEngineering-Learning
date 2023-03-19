@@ -14,7 +14,7 @@
 Syllabus
 
 * [Week 1: Introduction & Prerequisites](#week-1-introduction--prerequisites)
-* [Week 2: Data ingestion](#week-2-data-ingestion)
+* [Week 2: Workflow Orchestration](#week-2-workflow-orchestration)
 * [Week 3: Data Warehouse](#week-3-data-warehouse)
 * [Week 4: Analytics Engineering](#week-4-analytics-engineering)
 * [Week 5: Batch processing](#week-5-batch-processing)
@@ -28,6 +28,7 @@ Syllabus
 * **Start**: 16 January 2023 (Monday) at 18:00 CET
 * **Registration link**: https://airtable.com/shr6oVXeQvSI5HuWD
 * Subscribe to our [public Google Calendar](https://calendar.google.com/calendar/?cid=ZXIxcjA1M3ZlYjJpcXU0dTFmaG02MzVxMG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (it works from Desktop only)
+* [Cohort folder](cohorts/2023/) with homeworks and deadlines 
 
 ### Self-paced mode
 
@@ -141,10 +142,15 @@ Putting everything we learned to practice
 [More details](week_7_project)
 
 
+### Workshop: Maximizing Confidence in Your Data Model Changes with dbt and PipeRider
+
+
+[More details](cohorts/2023/workshops/piperider.md)
+
 ## Overview
 
 ### Architecture diagram
-<img src="images/architecture/arch_1.jpg"/>
+<img src="images/architecture/arch_2.png"/>
 
 ### Technologies
 * *Google Cloud Platform (GCP)*: Cloud-based auto-scaling platform by Google
@@ -153,7 +159,7 @@ Putting everything we learned to practice
 * *Terraform*: Infrastructure-as-Code (IaC)
 * *Docker*: Containerization
 * *SQL*: Data Analysis & Exploration
-* *Airflow*: Pipeline Orchestration
+* *Prefect*: Workflow Orchestration
 * *dbt*: Data Transformation
 * *Spark*: Distributed Processing
 * *Kafka*: Streaming
@@ -171,10 +177,12 @@ Prior experience with data engineering is not required.
 
 ## Instructors
 
-- Ankush Khanna (https://linkedin.com/in/ankushkhanna2)
-- Sejal Vaidya (https://linkedin.com/in/vaidyasejal)
-- Victoria Perez Mola (https://www.linkedin.com/in/victoriaperezmola/)
-- Alexey Grigorev (https://linkedin.com/in/agrigorev)
+- [Ankush Khanna](https://linkedin.com/in/ankushkhanna2)
+- [Sejal Vaidya](https://linkedin.com/in/vaidyasejal)
+- [Victoria Perez Mola](https://www.linkedin.com/in/victoriaperezmola/)
+- [Kalise Richmond](https://www.linkedin.com/in/kaliserichmond/)
+- [Jeff Hale](https://www.linkedin.com/in/-jeffhale/)
+- [Alexey Grigorev](https://linkedin.com/in/agrigorev)
 
 ## Tools
 
@@ -189,23 +197,6 @@ See [Week 1](week_1_basics_n_setup) for more details about installing these tool
 
 
 
-## FAQ
-
-
-* **Q**: I registered, but haven't received a confirmation email. Is it normal?
-  **A**: Yes, it's normal. It's not automated. But you will receive an email eventually.
-* **Q**: At what time of the day will it happen?
-  **A**: Office hours will happen on Mondays at 17:00 CET. But everything will be recorded, so you can watch it whenever it's convenient for you.
-* **Q**: Will there be a certificate?
-  **A**: Yes, if you complete the project.
-* **Q**: I'm 100% not sure I'll be able to attend. Can I still sign up?
-  **A**: Yes, please do! You'll receive all the updates and then you can watch the course at your own pace.
-* **Q**: Do you plan to run a ML engineering course as well?
-**A**: Glad you asked. [We do](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) :)
-* **Q**: I'm stuck! I've got a technical question!
-  **A**: Ask on Slack! And check out the [student FAQ](https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit?usp=sharing); many common issues have been answered already. If your issue is solved, please add how you solved it to the document. Thanks!
-
-
 
 ## Supporters and partners
 
@@ -216,6 +207,13 @@ Thanks to the course sponsors for making it possible to create this course
     <img height="100" src="https://github.com/DataTalksClub/mlops-zoomcamp/raw/main/images/prefect.png">
   </a>
 </p>
+
+<p align="center">
+  <a href="https://www.piperider.io/">
+    <img height="130" src="images/piperider.png">
+  </a>
+</p>
+
 
 Do you want to support our course and our community? Please reach out to [alexey@datatalks.club](alexey@datatalks.club)
 

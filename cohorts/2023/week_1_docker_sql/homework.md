@@ -22,7 +22,7 @@ Which tag has the following text? - *Write the image ID to the file*
 
 ## Question 2. Understanding docker first run 
 
-Run docker with the python:3.9 image in an iterative mode and the entrypoint of bash.
+Run docker with the python:3.9 image in an interactive mode and the entrypoint of bash.
 Now check the python modules that are installed ( use pip list). 
 How many python packages/modules are installed?
 
@@ -96,9 +96,9 @@ Note: it's not a typo, it's `tip` , not `trip`
 * Form for submitting: [form](https://forms.gle/EjphSkR1b3nsdojv7)
 * You can submit your homework multiple times. In this case, only the last submission will be used. 
 
-Deadline: 26 January (Thursday), 22:00 CET
+Deadline: 30 January (Monday), 22:00 CET
 
 
 ## Solution
 
-We will publish the solution here
+See here: https://www.youtube.com/watch?v=KIh_9tZiroA

@@ -1,1 +1,4 @@
 week6_venv
+/python/homework/resources
+*.csv
+*.gz
